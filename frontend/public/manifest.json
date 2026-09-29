@@ -1,0 +1,23 @@
+{
+  "short_name": "NeonCortrex",
+  "name": "NeonCortrex AI 3.0 — Neuro-Radiology HUD",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#030712",
+  "theme_color": "#080c14",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "description": "Futuristic AI Diagnostic Engine for Brain Tumor Classification, Grad-CAM, and Semantic Segmentation"
+}

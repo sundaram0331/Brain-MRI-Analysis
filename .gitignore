@@ -1,0 +1,42 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+mobile/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large Datasets (keep sample images in frontend/public/samples)
+dataset/
+dataset_tmp/
+hf_dataset/
+
+# Cache & Config
+.agents/
+.claude/
+.keras/
+.matplotlib/
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Mobile build
+mobile/.expo/
+mobile/web-build/
+
+# Heavy Model Weights (>50MB-100MB should not be committed directly to Git)
+*.h5
+*.keras
+
